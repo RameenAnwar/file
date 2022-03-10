@@ -1,9 +1,9 @@
 ##
 ## LEF for PtnCells ;
-## created by Innovus v20.10-p004_1 on Wed Mar  9 15:44:40 2022
+## created by Innovus v20.10-p004_1 on Thu Mar 10 19:08:49 2022
 ##
 
-VERSION 5.8 ;
+VERSION 5.7 ;
 
 BUSBITCHARS "[]" ;
 DIVIDERCHAR "/" ;
@@ -5126,6 +5126,10 @@ MACRO azadi_soc_top_caravel
     PORT
       LAYER met4 ;
         RECT 521.010000 1488.485000 522.750000 1883.265000 ;
+      LAYER met3 ;
+        RECT 45.690000 1488.485000 522.750000 1490.225000 ;
+      LAYER met3 ;
+        RECT 45.690000 1881.525000 522.750000 1883.265000 ;
       LAYER met4 ;
         RECT 45.690000 1488.485000 47.430000 1883.265000 ;
     END
@@ -5136,6 +5140,10 @@ MACRO azadi_soc_top_caravel
     PORT
       LAYER met4 ;
         RECT 521.010000 1040.985000 522.750000 1435.765000 ;
+      LAYER met3 ;
+        RECT 45.690000 1040.985000 522.750000 1042.725000 ;
+      LAYER met3 ;
+        RECT 45.690000 1434.025000 522.750000 1435.765000 ;
       LAYER met4 ;
         RECT 45.690000 1040.985000 47.430000 1435.765000 ;
     END
@@ -5146,6 +5154,10 @@ MACRO azadi_soc_top_caravel
     PORT
       LAYER met4 ;
         RECT 521.010000 593.485000 522.750000 988.265000 ;
+      LAYER met3 ;
+        RECT 45.690000 593.485000 522.750000 595.225000 ;
+      LAYER met3 ;
+        RECT 45.690000 986.525000 522.750000 988.265000 ;
       LAYER met4 ;
         RECT 45.690000 593.485000 47.430000 988.265000 ;
     END
@@ -5156,6 +5168,10 @@ MACRO azadi_soc_top_caravel
     PORT
       LAYER met4 ;
         RECT 2170.710000 1483.125000 2172.450000 1877.905000 ;
+      LAYER met3 ;
+        RECT 1695.390000 1483.125000 2172.450000 1484.865000 ;
+      LAYER met3 ;
+        RECT 1695.390000 1876.165000 2172.450000 1877.905000 ;
       LAYER met4 ;
         RECT 1695.390000 1483.125000 1697.130000 1877.905000 ;
     END
@@ -5166,6 +5182,10 @@ MACRO azadi_soc_top_caravel
     PORT
       LAYER met4 ;
         RECT 2170.710000 1035.625000 2172.450000 1430.405000 ;
+      LAYER met3 ;
+        RECT 1695.390000 1035.625000 2172.450000 1037.365000 ;
+      LAYER met3 ;
+        RECT 1695.390000 1428.665000 2172.450000 1430.405000 ;
       LAYER met4 ;
         RECT 1695.390000 1035.625000 1697.130000 1430.405000 ;
     END
@@ -5176,6 +5196,10 @@ MACRO azadi_soc_top_caravel
     PORT
       LAYER met4 ;
         RECT 2170.710000 588.125000 2172.450000 982.905000 ;
+      LAYER met3 ;
+        RECT 1695.390000 588.125000 2172.450000 589.865000 ;
+      LAYER met3 ;
+        RECT 1695.390000 981.165000 2172.450000 982.905000 ;
       LAYER met4 ;
         RECT 1695.390000 588.125000 1697.130000 982.905000 ;
     END
@@ -5186,6 +5210,10 @@ MACRO azadi_soc_top_caravel
     PORT
       LAYER met4 ;
         RECT 2170.710000 140.625000 2172.450000 535.405000 ;
+      LAYER met3 ;
+        RECT 1695.390000 140.625000 2172.450000 142.365000 ;
+      LAYER met3 ;
+        RECT 1695.390000 533.665000 2172.450000 535.405000 ;
       LAYER met4 ;
         RECT 1695.390000 140.625000 1697.130000 535.405000 ;
     END
@@ -5196,6 +5224,10 @@ MACRO azadi_soc_top_caravel
     PORT
       LAYER met4 ;
         RECT 521.010000 145.985000 522.750000 540.765000 ;
+      LAYER met3 ;
+        RECT 45.690000 145.985000 522.750000 147.725000 ;
+      LAYER met3 ;
+        RECT 45.690000 539.025000 522.750000 540.765000 ;
       LAYER met4 ;
         RECT 45.690000 145.985000 47.430000 540.765000 ;
     END
@@ -5216,6 +5248,10 @@ MACRO azadi_soc_top_caravel
 
 # P/G pin shape extracted from block 'sky130_sram_1kbyte_1rw1r_32x256_8'
     PORT
+      LAYER met3 ;
+        RECT 49.090000 1878.125000 519.350000 1879.865000 ;
+      LAYER met3 ;
+        RECT 49.090000 1491.885000 519.350000 1493.625000 ;
       LAYER met4 ;
         RECT 49.090000 1491.885000 50.830000 1879.865000 ;
       LAYER met4 ;
@@ -5226,6 +5262,10 @@ MACRO azadi_soc_top_caravel
 
 # P/G pin shape extracted from block 'sky130_sram_1kbyte_1rw1r_32x256_8'
     PORT
+      LAYER met3 ;
+        RECT 49.090000 1430.625000 519.350000 1432.365000 ;
+      LAYER met3 ;
+        RECT 49.090000 1044.385000 519.350000 1046.125000 ;
       LAYER met4 ;
         RECT 49.090000 1044.385000 50.830000 1432.365000 ;
       LAYER met4 ;
@@ -5236,6 +5276,10 @@ MACRO azadi_soc_top_caravel
 
 # P/G pin shape extracted from block 'sky130_sram_1kbyte_1rw1r_32x256_8'
     PORT
+      LAYER met3 ;
+        RECT 49.090000 983.125000 519.350000 984.865000 ;
+      LAYER met3 ;
+        RECT 49.090000 596.885000 519.350000 598.625000 ;
       LAYER met4 ;
         RECT 49.090000 596.885000 50.830000 984.865000 ;
       LAYER met4 ;
@@ -5246,6 +5290,10 @@ MACRO azadi_soc_top_caravel
 
 # P/G pin shape extracted from block 'sky130_sram_1kbyte_1rw1r_32x256_8'
     PORT
+      LAYER met3 ;
+        RECT 1698.790000 1872.765000 2169.050000 1874.505000 ;
+      LAYER met3 ;
+        RECT 1698.790000 1486.525000 2169.050000 1488.265000 ;
       LAYER met4 ;
         RECT 1698.790000 1486.525000 1700.530000 1874.505000 ;
       LAYER met4 ;
@@ -5256,6 +5304,10 @@ MACRO azadi_soc_top_caravel
 
 # P/G pin shape extracted from block 'sky130_sram_1kbyte_1rw1r_32x256_8'
     PORT
+      LAYER met3 ;
+        RECT 1698.790000 1425.265000 2169.050000 1427.005000 ;
+      LAYER met3 ;
+        RECT 1698.790000 1039.025000 2169.050000 1040.765000 ;
       LAYER met4 ;
         RECT 1698.790000 1039.025000 1700.530000 1427.005000 ;
       LAYER met4 ;
@@ -5266,6 +5318,10 @@ MACRO azadi_soc_top_caravel
 
 # P/G pin shape extracted from block 'sky130_sram_1kbyte_1rw1r_32x256_8'
     PORT
+      LAYER met3 ;
+        RECT 1698.790000 977.765000 2169.050000 979.505000 ;
+      LAYER met3 ;
+        RECT 1698.790000 591.525000 2169.050000 593.265000 ;
       LAYER met4 ;
         RECT 1698.790000 591.525000 1700.530000 979.505000 ;
       LAYER met4 ;
@@ -5276,6 +5332,10 @@ MACRO azadi_soc_top_caravel
 
 # P/G pin shape extracted from block 'sky130_sram_1kbyte_1rw1r_32x256_8'
     PORT
+      LAYER met3 ;
+        RECT 1698.790000 530.265000 2169.050000 532.005000 ;
+      LAYER met3 ;
+        RECT 1698.790000 144.025000 2169.050000 145.765000 ;
       LAYER met4 ;
         RECT 1698.790000 144.025000 1700.530000 532.005000 ;
       LAYER met4 ;
@@ -5286,6 +5346,10 @@ MACRO azadi_soc_top_caravel
 
 # P/G pin shape extracted from block 'sky130_sram_1kbyte_1rw1r_32x256_8'
     PORT
+      LAYER met3 ;
+        RECT 49.090000 535.625000 519.350000 537.365000 ;
+      LAYER met3 ;
+        RECT 49.090000 149.385000 519.350000 151.125000 ;
       LAYER met4 ;
         RECT 49.090000 149.385000 50.830000 537.365000 ;
       LAYER met4 ;
@@ -6058,8 +6122,6 @@ MACRO azadi_soc_top_caravel
       RECT 5.020000 2.360000 2235.640000 5.960000 ;
       RECT 0.000000 2.360000 2.620000 1956.720000 ;
       RECT 0.000000 0.000000 2240.660000 2.360000 ;
-    LAYER met5 ;
-      RECT 0.000000 0.000000 2240.660000 1959.760000 ;
   END
 END azadi_soc_top_caravel
 
